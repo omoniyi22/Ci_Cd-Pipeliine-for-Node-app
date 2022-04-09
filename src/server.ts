@@ -8,5 +8,6 @@ const server = new app().Start(port)
     console.log(error)
     process.exit(1);
   });
+  
 
 export default server;
